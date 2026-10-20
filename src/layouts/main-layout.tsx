@@ -14,7 +14,7 @@ const MainLayout = ({children}: MainLayoutProps) => {
         <>
             <Header />
 
-            <main className="flex min-h-screen flex-col items-center px-4">
+            <main className="flex flex-col items-center px-4 pb-40">
                 {children}
             </main>
 

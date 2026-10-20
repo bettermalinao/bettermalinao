@@ -33,6 +33,7 @@ const LandingPage = () => {
                     className="flex justify-between"
                     left_icon={<SiGithub />}
                     onClick={() => openLink("https://github.com/bettermalinao/bettermalinao")}
+                    size="lg"
                 >
                     
                     Contribute on Github
@@ -43,6 +44,7 @@ const LandingPage = () => {
                     className="flex justify-between"
                     left_icon={<SiFacebook />}
                     onClick={() => openLink("https://www.facebook.com/bettermalinao.org")}
+                    size="lg"
                 >
                     
                     Follow on Facebook
