@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Gitlab Sans variable font */
+@font-face {
+    font-family: "Gitlab Sans";
+    src: url("@gitlab/fonts/gitlab-sans/GitLabSans.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@theme {
+    --font-sans: "GitLab Sans", sans-serif;
+}
