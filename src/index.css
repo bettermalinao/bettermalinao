@@ -2,12 +2,22 @@
 
 /* Gitlab Sans variable font */
 @font-face {
-    font-family: "Gitlab Sans";
+    font-family: "GitLab Sans";
     src: url("@gitlab/fonts/gitlab-sans/GitLabSans.woff2") format("woff2");
     font-weight: 100 900;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gitlab Mono";
+    src: url("@gitlab/fonts/gitlab-mono/GitLabMono.woff2") format("woff2");
+    font-weight: 100 800;
+    font-style: normal;
+    font-display: swap;
 }
 
 @theme {
     --font-sans: "GitLab Sans", sans-serif;
+    --font-mono: "GitLab Mono", monospace;
 }
