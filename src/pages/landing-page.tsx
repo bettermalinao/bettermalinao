@@ -1,4 +1,6 @@
 
+import hero_image from "../assets/hero/bettermalinao-hero-v1_02.png";
+
 import MainLayout from "../layouts/main-layout";
 import { Button } from "../components/button";
 
@@ -11,7 +13,7 @@ const LandingPage = () => {
     return(
         <MainLayout>
             <section className="pt-10 pb-6">
-                <img src="src/assets/hero/bettermalinao-hero-v1_02.png" alt="Better Malinao Hero Image" className="w-80 md:w-100 lg:w-100" />
+                <img src={hero_image} className="w-80 md:w-100 lg:w-100" />
             </section>
 
             <article className="w-98 md:w-200 lg:w-200 flex flex-col items-center gap-y-4">
